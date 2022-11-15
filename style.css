@@ -1,92 +1,72 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    background-color: #dfe6e9;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    background-color: white;
   }
   
-  .container {
-    max-width: 1024px;
-  }
-  
-  textarea {
+  textarea{
     background: transparent;
     border: none;
     resize: none;
-    color: rgb(82, 82, 82);
-    border-left: 1px solid rgb(82, 82, 82);
+    color: black;
+    border-left: 1px solid black;
     padding: 10px;
-    letter-spacing: 1px;
   }
   
   .jumbotron {
-    background: linear-gradient(to right, #d63031, #6c5ce7);
     text-align: center;
-    color: white;
+    background-color: transparent;
+    color: black;
     border-radius: 0;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-bottom: 0px;
-    border-bottom: 10px solid rgb(82, 82, 82);
+    border-bottom: 10px solid rgb(107, 107, 107);
   }
   
-  #clearFieldsBtn {
-    margin-top: 10px;
-  }
-  
-  .description {
+  .description{
     white-space: pre-wrap;
-    font-weight: 600;
   }
   
-  .time-block {
-    text-align: center;
+  .time-block{
+    text-align: left;
+    border-radius: 15px;
   }
-  
+
   .row {
     white-space: pre-wrap;
+    border-top: 1px solid;
     height: 80px;
-    border-top: 1px solid white;
   }
   
   .hour {
-    background-color: #ffeaa7;
-    color: rgb(82, 82, 82);
-    padding-top: 27px;
-    padding-left: 10px;
-    font-size: 25px;
-    font-weight: 500;
+    background-color: white;
+    color: #000000;
+    border-top: 1px dashed #000000;
   }
   
   .past {
-    background-color: #dfe6e9;
-    border-radius: 15px;
+    background-color: #a7a5a5;
     color: white;
   }
   
   .present {
-    background-color: #d63031;
-    border-radius: 15px;
+    background-color: #ff6961;
+    color: white;
   }
   
   .future {
-    background-color: #55efc4;
-    border-radius: 15px;
+    background-color: #77dd77;
+    color: white;
   }
   
   .saveBtn {
-    border-left: 1px solid rgb(82, 82, 82);
+    border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #0984e3;
+    background-color: #0088f7;
     color: white;
   }
   
   .saveBtn i:hover {
-    font-size: 30px;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .white-text {
-    color: white;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
   }
